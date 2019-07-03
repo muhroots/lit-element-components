@@ -8,12 +8,16 @@
   "scripts": {
     "demo": "owc-dev-server -o"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "button.js",
   "author": "Murilo <murilo.siqueira@foregon.com>",
   "license": "MIT",
   "dependencies": {
-    "lit-element": "^2.2.0",
     "lit-html": "^1.1.0",
+    "lit-element": "^2.2.0",
     "owc-dev-server": "^1.0.0"
-  }
+  },
+  "gitHead": "f1d5921b6af29bfdcb5aa0da52d23221ccb7fbf3"
 }
