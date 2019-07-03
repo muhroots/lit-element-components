@@ -1,5 +1,5 @@
 {
-  "name": "lit-button",
+  "name": "@wc-lit/lit-button",
   "version": "0.0.3",
   "description": "The Button LitElement Component",
   "keywords": [
@@ -19,5 +19,5 @@
     "lit-html": "^1.1.0",
     "owc-dev-server": "^1.0.0"
   },
-  "gitHead": "6e53a7c19108979db1821728c9bd5a7b811c2f31"
+  "gitHead": "582c1bc36784958a4ebdfecaa8a68c37967e3a63"
 }
