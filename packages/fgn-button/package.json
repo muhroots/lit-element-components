@@ -11,6 +11,7 @@
   "publishConfig": {
     "access": "public"
   },
+  "main": "./button.js",
   "author": "Murilo <murilo.siqueira@foregon.com>",
   "license": "MIT",
   "dependencies": {
