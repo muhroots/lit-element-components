@@ -6,7 +6,7 @@ import { style } from './styles'
 class Button extends LitElement {
   static get properties() {
     return {
-      raised: { type: Boolean },
+      primary: { type: Boolean },
       pressed: { type: Boolean }
     }
   }
@@ -16,25 +16,21 @@ class Button extends LitElement {
   }
 
   constructor () {
-    super()
-
-    this.raised = false
-    this.pressed = false    
+    super()    
   }
 
   render() {
     const theme = {
-      'c-button--raised': this.raised,
+      'c-button--primary': this.primary,
       'c-button--pressed': this.pressed,
     }
 
     return html`
       <button class="c-button ${classMap(theme)}">
-        <slot name="icon"></slot>
-        <slot name="label"></slot>
+        <slot name="text"></slot>
       </button>
     `;
   }
 }
 
-customElements.define('lit-button', Button)
+customElements.define('fgn-button', Button)

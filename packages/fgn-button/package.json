@@ -1,5 +1,5 @@
 {
-  "name": "@wc-lit/lit-button",
+  "name": "@fgn-wc/button",
   "version": "0.0.4",
   "description": "The Button LitElement Component",
   "keywords": [
@@ -11,13 +11,11 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "button.js",
   "author": "Murilo <murilo.siqueira@foregon.com>",
   "license": "MIT",
   "dependencies": {
     "lit-element": "^2.2.0",
     "lit-html": "^1.1.0",
     "owc-dev-server": "^1.0.0"
-  },
-  "gitHead": "582c1bc36784958a4ebdfecaa8a68c37967e3a63"
+  }
 }
