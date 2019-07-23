@@ -1,11 +1,14 @@
-# `lit-button`
+# `fgn-wc/button`
 
-> TODO: description
-
-## Usage
+### Installation
 
 ```
-const litButton = require('lit-button');
+npm i @fgn-wc/button --save-dev
+```
+### Basic usage
 
-// TODO: DEMONSTRATE API
+```html
+<fgn-button primary pressed>
+  <span slot="text">Descubra suas chances</span>
+</fgn-button>
 ```

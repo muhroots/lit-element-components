@@ -30,9 +30,6 @@ export const style = css`
     box-shadow: 0 0 0 0.2rem var(--color-focus-a11y, rgba(0, 125, 255, 0.25));
   }
 
-  /**  modify componenet
-    **/
-
   .c-button--primary {
     background-color: var(--button-background, #1e88e5);
     color: white;
